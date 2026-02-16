@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Word Guessing Game</h1>
+    <div id="game-area">
+        <p id="hint">Hint: The word starts with 'A'</p>
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button id="submit-btn">Submit Guess</button>
+        <p id="message"></p>
+        <p id="attempts">Attempts left: 5</p>
+        <button id="restart-btn">Restart Game</button>
+        <h3>Previous Guesses:</h3>
+        <ul id="previous-guesses"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

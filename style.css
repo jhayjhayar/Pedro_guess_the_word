@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    transition: background-color 0.5s; /* Smooth color transition */
+}
+
+#game-area {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#previous-guesses {
+    list-style-type: none;
+    padding: 0;
+}
+
+#previous-guesses li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
