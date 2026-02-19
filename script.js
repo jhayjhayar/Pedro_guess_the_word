@@ -1,5 +1,5 @@
 // Array of possible secret words
-const words = ["apple", "banana", "grape", "orange", "kiwi"];
+const words = ["Angkor Wat", "Burj Khalifa", "Colosseum", "Christ the Redeemer","Eiffel Tower","Forbidden City","Great Wall of China","Hagia Sophia","Independence Hall","Jerash Ruins","Kremlin","Louvre Museum","Machu Picchu"," Niagara Falls","One World Trade Center","Petra", "Qutub Minar", "Roman Forum", "Statue of Liberty", "Taj Mahal", "Uluru", "Versailles Palace", "Westminster Abbey", "Xochimilco", "Yellowstone National Park", "Zocalo"];
 
 // Game variables
 let secretWord;
