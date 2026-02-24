@@ -1,6 +1,5 @@
 // Array of possible secret words
-const words = ["Angkor Wat", "Burj Khalifa", "Colosseum", "Christ the Redeemer","Eiffel Tower","Forbidden City","Great Wall of China","Hagia Sophia","Independence Hall","Jerash Ruins","Kremlin","Louvre Museum","Machu Picchu"," Niagara Falls","One World Trade Center","Petra", "Qutub Minar", "Roman Forum", "Statue of Liberty", "Taj Mahal", "Uluru", "Versailles Palace", "Westminster Abbey", "Xochimilco", "Yellowstone National Park", "Zocalo"];
-
+const words = ["angkor wat", "burj khalifa", "colosseum", "christ the redeemer","eiffel tower","forbidden city","great wall of china","hagia sophia","independence hall","jerash ruins","kremlin","louvre museum","machu picchu"," niagara falls","one world trade center","petra", "qutub minar", "roman forum", "statue of liberty", "taj mahal", "uluru", "versailles palace", "westminster abbey", "xochimilco", "yellowstone national park", "zocalo"];
 // Game variables
 let secretWord;
 let attemptsLeft = 5;
@@ -104,4 +103,5 @@ document.getElementById('guess-input').addEventListener('keypress', function(e) 
 });
 
 // Initialize the game on page load
+
 initializeGame();
