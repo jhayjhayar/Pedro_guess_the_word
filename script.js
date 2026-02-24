@@ -103,5 +103,4 @@ document.getElementById('guess-input').addEventListener('keypress', function(e) 
 });
 
 // Initialize the game on page load
-
 initializeGame();
